@@ -1,0 +1,86 @@
+Random element sort results
+Test 1
+Number of comparisons for tim sort: 130341
+Number of comparisons for quick sort: 163558
+Test 2
+Number of comparisons for tim sort: 130477
+Number of comparisons for quick sort: 165375
+Test 3
+Number of comparisons for tim sort: 130471
+Number of comparisons for quick sort: 163103
+Test 4
+Number of comparisons for tim sort: 130385
+Number of comparisons for quick sort: 161305
+Test 5
+Number of comparisons for tim sort: 130434
+Number of comparisons for quick sort: 162189
+
+Increasing Order
+Test 1
+Number of comparisons for tim sort: 19998
+Number of comparisons for quick sort: 50004999
+
+10 Sequences of 1000 sorted elements
+Test 1
+Number of comparisons for tim sort: 55975
+Number of comparisons for quick sort: 5058953
+Test 2
+Number of comparisons for tim sort: 55991
+Number of comparisons for quick sort: 4982724
+Test 3
+Number of comparisons for tim sort: 55976
+Number of comparisons for quick sort: 4876398
+Test 4
+Number of comparisons for tim sort: 55939
+Number of comparisons for quick sort: 4995917
+Test 5
+Number of comparisons for tim sort: 55971
+Number of comparisons for quick sort: 5128694
+
+100 sequences of 100 sorted elements
+Test 1
+Number of comparisons for tim sort: 88495
+Number of comparisons for quick sort: 623131
+Test 2
+Number of comparisons for tim sort: 88542
+Number of comparisons for quick sort: 623131
+Test 3
+Number of comparisons for tim sort: 88535
+Number of comparisons for quick sort: 522691
+Test 4
+Number of comparisons for tim sort: 88211
+Number of comparisons for quick sort: 534261
+Test 5
+Number of comparisons for tim sort: 88337
+Number of comparisons for quick sort: 568178
+
+Observations:
+In every case tested tim sort performed better and did much better on the pre-sorted lists, I think that in most cases combining two different forms of sorting, like Time sort does, will likely come out better.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
