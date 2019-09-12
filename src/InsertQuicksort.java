@@ -1,13 +1,15 @@
 import java.util.Random;
 import java.util.Arrays;
 
-public class SortingAnalysis2ElectricBoogaloo {
 
-    public static void quickSort2ElectricBoogaloo(TestInteger[] A, int p, int r){
+public class InsertQuicksort {
+
+
+    public static void insertQuicksortFunction(TestInteger[] A, int p, int r){
         if(p < r) {
-           int q = Partition(A, p, r);
-           quickSort2ElectricBoogaloo(A, p, q - 1);
-           quickSort2ElectricBoogaloo(A, q + 1, r);
+            int q = Partition(A, p, r);
+            insertQuicksortFunction(A, p, q - 1);
+            insertQuicksortFunction(A, q + 1, r);
         }
     }
 
