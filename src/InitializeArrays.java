@@ -3,7 +3,7 @@ import java.util.Random;
 
 public class InitializeArrays {
         public static void main(String[] args) {
-        int length = 10000;
+        int length = 6;
         TestInteger[] timSortArray = new TestInteger[length];
         TestInteger[] quickSortArray = new TestInteger[length];
         TestInteger[] randPArray = new TestInteger[length];
