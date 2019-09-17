@@ -1,86 +1,118 @@
-Random element sort results
-Test 1
-Number of comparisons for tim sort: 130341
-Number of comparisons for quick sort: 163558
-Test 2
-Number of comparisons for tim sort: 130477
-Number of comparisons for quick sort: 165375
-Test 3
-Number of comparisons for tim sort: 130471
-Number of comparisons for quick sort: 163103
-Test 4
-Number of comparisons for tim sort: 130385
-Number of comparisons for quick sort: 161305
-Test 5
-Number of comparisons for tim sort: 130434
-Number of comparisons for quick sort: 162189
-
-Increasing Order
-Test 1
-Number of comparisons for tim sort: 19998
-Number of comparisons for quick sort: 50004999
-
-10 Sequences of 1000 sorted elements
-Test 1
-Number of comparisons for tim sort: 55975
-Number of comparisons for quick sort: 5058953
-Test 2
-Number of comparisons for tim sort: 55991
-Number of comparisons for quick sort: 4982724
-Test 3
-Number of comparisons for tim sort: 55976
-Number of comparisons for quick sort: 4876398
-Test 4
-Number of comparisons for tim sort: 55939
-Number of comparisons for quick sort: 4995917
-Test 5
-Number of comparisons for tim sort: 55971
-Number of comparisons for quick sort: 5128694
-
-100 sequences of 100 sorted elements
-Test 1
-Number of comparisons for tim sort: 88495
-Number of comparisons for quick sort: 623131
-Test 2
-Number of comparisons for tim sort: 88542
-Number of comparisons for quick sort: 623131
-Test 3
-Number of comparisons for tim sort: 88535
-Number of comparisons for quick sort: 522691
-Test 4
-Number of comparisons for tim sort: 88211
-Number of comparisons for quick sort: 534261
-Test 5
-Number of comparisons for tim sort: 88337
-Number of comparisons for quick sort: 568178
-
-Observations:
-In every case tested tim sort performed better and did much better on the pre-sorted lists, I think that in most cases combining two different forms of sorting, like Time sort does, will likely come out better.
+Mitchell Drummer And Jonah Northwood CSCI3501
+If you click run on InitializeArrays.java, it will print the number of comparisons for each type of sorting on each type of pre-sorted list.
+I also have it pasted here for your convenience:
 
 
 
 
+Starting printing sorting results on random lists
 
+Number of comparisons for quick sort on a random list, test number1: 70147
+Number of comparisons for quick sort on a random list, test number2: 65409
+Number of comparisons for quick sort on a random list, test number3: 70707
+Number of comparisons for quick sort on a random list, test number4: 66704
+Number of comparisons for quick sort on a random list, test number5: 73811
+Number of comparisons for tim sort on a random list, test number1: 55246
+Number of comparisons for tim sort on a random list, test number2: 55204
+Number of comparisons for tim sort on a random list, test number3: 55110
+Number of comparisons for tim sort on a random list, test number4: 55222
+Number of comparisons for tim sort on a random list, test number5: 55281
+Number of comparisons for random quicksort on a random list, test number1: 71211
+Number of comparisons for random quicksort on a random list, test number2: 68651
+Number of comparisons for random quicksort on a random list, test number3: 65694
+Number of comparisons for random quicksort on a random list, test number4: 77284
+Number of comparisons for random quicksort on a random list, test number5: 69996
+Number of comparisons for median quicksort on a random list, test number1: 68469
+Number of comparisons for median quicksort on a random list, test number2: 63285
+Number of comparisons for median quicksort on a random list, test number3: 65215
+Number of comparisons for median quicksort on a random list, test number4: 65326
+Number of comparisons for median quicksort on a random list, test number5: 62038
+Number of comparisons for insert quicksort on a random list, test number1: 79187
+Number of comparisons for insert quicksort on a random list, test number2: 83711
+Number of comparisons for insert quicksort on a random list, test number3: 81229
+Number of comparisons for insert quicksort on a random list, test number4: 77471
+Number of comparisons for insert quicksort on a random list, test number5: 87091
 
+Starting printing sorting results on list of increasing order
 
+Number of comparisons for quick sort on an increasing order list, test number1: 12497500
+Number of comparisons for quick sort on an increasing order list, test number2: 12497500
+Number of comparisons for quick sort on an increasing order list, test number3: 12497500
+Number of comparisons for quick sort on an increasing order list, test number4: 12497500
+Number of comparisons for quick sort on an increasing order list, test number5: 12497500
+Number of comparisons for tim sort on an increasing order list, test number1: 4999
+Number of comparisons for tim sort on an increasing order list, test number2: 4999
+Number of comparisons for tim sort on an increasing order list, test number3: 4999
+Number of comparisons for tim sort on an increasing order list, test number4: 4999
+Number of comparisons for tim sort on an increasing order list, test number5: 4999
+Number of comparisons for random quicksort on an increasing order list, test number1: 79953
+Number of comparisons for random quicksort on an increasing order list, test number2: 74703
+Number of comparisons for random quicksort on an increasing order list, test number3: 69766
+Number of comparisons for random quicksort on an increasing order list, test number4: 78744
+Number of comparisons for random quicksort on an increasing order list, test number5: 68068
+Number of comparisons for median quicksort on an increasing order list, test number1: 74652
+Number of comparisons for median quicksort on an increasing order list, test number2: 68166
+Number of comparisons for median quicksort on an increasing order list, test number3: 68431
+Number of comparisons for median quicksort on an increasing order list, test number4: 68507
+Number of comparisons for median quicksort on an increasing order list, test number5: 70594
+Number of comparisons for insert quicksort on an increasing order list, test number1: 12497065
+Number of comparisons for insert quicksort on an increasing order list, test number2: 12497065
+Number of comparisons for insert quicksort on an increasing order list, test number3: 12497065
+Number of comparisons for insert quicksort on an increasing order list, test number4: 12497065
+Number of comparisons for insert quicksort on an increasing order list, test number5: 12497065
 
+Starting printing sorting results on 10 sequences of 1000 elements
 
+Number of comparisons for quick sort on the 10 sequences of 1000, test number1: 12497500
+Number of comparisons for quick sort on the 10 sequences of 1000, test number2: 12497500
+Number of comparisons for quick sort on the 10 sequences of 1000, test number3: 12497500
+Number of comparisons for quick sort on the 10 sequences of 1000, test number4: 12497500
+Number of comparisons for quick sort on the 10 sequences of 1000, test number5: 12497500
+Number of comparisons for tim sort on the 10 sequences of 1000, test number1: 4999
+Number of comparisons for tim sort on the 10 sequences of 1000, test number2: 4999
+Number of comparisons for tim sort on the 10 sequences of 1000, test number3: 4999
+Number of comparisons for tim sort on the 10 sequences of 1000, test number4: 4999
+Number of comparisons for tim sort on the 10 sequences of 1000, test number5: 4999
+Number of comparisons for random quicksort on the 10 sequences of 1000, test number1: 66942
+Number of comparisons for random quicksort on the 10 sequences of 1000, test number2: 68986
+Number of comparisons for random quicksort on the 10 sequences of 1000, test number3: 67496
+Number of comparisons for random quicksort on the 10 sequences of 1000, test number4: 74822
+Number of comparisons for random quicksort on the 10 sequences of 1000, test number5: 74007
+Number of comparisons for median quicksort on the 10 sequences of 1000, test number1: 69607
+Number of comparisons for median quicksort on the 10 sequences of 1000, test number2: 69574
+Number of comparisons for median quicksort on the 10 sequences of 1000, test number3: 71944
+Number of comparisons for median quicksort on the 10 sequences of 1000, test number4: 68463
+Number of comparisons for median quicksort on the 10 sequences of 1000, test number5: 69640
+Number of comparisons for insert quicksort on the 10 sequences of 1000, test number1: 12497065
+Number of comparisons for insert quicksort on the 10 sequences of 1000, test number2: 12497065
+Number of comparisons for insert quicksort on the 10 sequences of 1000, test number3: 12497065
+Number of comparisons for insert quicksort on the 10 sequences of 1000, test number4: 12497065
+Number of comparisons for insert quicksort on the 10 sequences of 1000, test number5: 12497065
 
+Starting printing sorting results on 100 sequences of 100
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Number of comparisons for quick sort on the 100 sequences of 100, test number1: 12497500
+Number of comparisons for quick sort on the 100 sequences of 100, test number2: 12497500
+Number of comparisons for quick sort on the 100 sequences of 100, test number3: 12497500
+Number of comparisons for quick sort on the 100 sequences of 100, test number4: 12497500
+Number of comparisons for quick sort on the 100 sequences of 100, test number5: 12497500
+Number of comparisons for tim sort on the 100 sequences of 100, test number1: 4999
+Number of comparisons for tim sort on the 100 sequences of 100, test number2: 4999
+Number of comparisons for tim sort on the 100 sequences of 100, test number3: 4999
+Number of comparisons for tim sort on the 100 sequences of 100, test number4: 4999
+Number of comparisons for tim sort on the 100 sequences of 100, test number5: 4999
+Number of comparisons for random quicksort on the 100 sequences of 100, test number1: 66128
+Number of comparisons for random quicksort on the 100 sequences of 100, test number2: 71723
+Number of comparisons for random quicksort on the 100 sequences of 100, test number3: 77107
+Number of comparisons for random quicksort on the 100 sequences of 100, test number4: 65348
+Number of comparisons for random quicksort on the 100 sequences of 100, test number5: 72377
+Number of comparisons for median quicksort on the 100 sequences of 100, test number1: 68874
+Number of comparisons for median quicksort on the 100 sequences of 100, test number2: 70857
+Number of comparisons for median quicksort on the 100 sequences of 100, test number3: 68175
+Number of comparisons for median quicksort on the 100 sequences of 100, test number4: 67839
+Number of comparisons for median quicksort on the 100 sequences of 100, test number5: 69066
+Number of comparisons for insert quicksort on the 100 sequences of 100, test number1: 12497065
+Number of comparisons for insert quicksort on the 100 sequences of 100, test number2: 12497065
+Number of comparisons for insert quicksort on the 100 sequences of 100, test number3: 12497065
+Number of comparisons for insert quicksort on the 100 sequences of 100, test number4: 12497065
+Number of comparisons for insert quicksort on the 100 sequences of 100, test number5: 12497065

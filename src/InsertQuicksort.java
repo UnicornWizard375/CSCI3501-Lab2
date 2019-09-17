@@ -3,7 +3,7 @@ import java.util.Arrays;
 
 
 public class InsertQuicksort {
-public static int k = 10;
+public static int k = 30;
 
     public static void insertQuicksortFunction(TestInteger[] A, int p, int r){
             if (p < r && ((r - p) > k)) {
@@ -22,8 +22,6 @@ public static int k = 10;
         int i = p - 1;
         TestInteger temp;
 
-//        if (r - p > k) {
-
             for (int j = p; j <= r - 1; j++) {
                 if (A[j].compareTo(x) <= 0) {
                     i = i + 1;
@@ -37,18 +35,13 @@ public static int k = 10;
             A[i + 1] = A[r];
             A[r] = temp;
             return i + 1;
-//        }
-//        else {
-//        insertFunction(A, p, r);
-//        return i + 1;
-//        }
     }
 
     private static void insertFunction(TestInteger[] A, int p, int r){
-        for(int j= p+1; j < r - p - 1; j++) {
+        for(int j= p+1; j <= r; j++) {
             TestInteger key = A[j];
             int i = j-1;
-            while (i >= 0 && (A[i].compareTo(key) > 0)){
+            while (i >= p && (A[i].compareTo(key) > 0)){
                 A[i+1] = A[i];
                 i = i-1;
             }
